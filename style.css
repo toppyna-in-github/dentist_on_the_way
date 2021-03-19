@@ -1,0 +1,203 @@
+/*header*/
+  .imglogo{
+
+  }
+
+
+  .catchcopy{
+    font-size:10px;
+  }
+
+  .phone{
+    font-size:27px;
+  }
+
+  .reserve_time{
+
+  }
+
+  .menu{
+    
+  }
+
+  button{
+    background-image: linear-gradient(#6cc6c4, #99e1df);
+    height:70px;
+    width:333px; 
+    border-style: none;  
+    border-radius:10px;
+    color:#FFF;
+  }
+
+  button:hover{
+    /* 文字色がなぜ変わらない、、、 */
+    background-image: linear-gradient(#99e1df,#6cc6c4);
+    
+  }
+  
+  a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+  }
+
+
+
+/*main*/
+
+/* ページが変わっても変わらない仕様 */
+
+.hisigata li:after{
+	content:'';
+	display:block; 
+	position:absolute; 
+	background:#6fc7c5;
+	width:9px;
+	height:9px; 
+	top:8px; 
+	left:5px; 
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+}
+
+/* リスト表 */
+
+  /* ココって何の意味があるんだろう？
+  https://benri-no1.com/list/#HTML-2 17.
+  .list {
+    position: relative;
+    /* border: solid 2px #ee8992;
+    margin: 3em 0 1em 0;
+  } */ 
+
+  .list-title {
+    font-size: 1.15em;
+    background-image: linear-gradient(#99e1df,#6cc6c4);
+    height:43px;
+    padding: 4px;
+    margin:0;
+    text-align: left;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+
+  .list ul,.list{
+    margin: 0;
+    padding: 0 0.5em 0 0.5em;
+    border: none;
+    list-style-type: none;
+  }
+
+  .list ul li{
+    line-height: 1.5;
+    padding: 0.5em 0 0.5em 1.4em;
+    border-bottom: solid 1px #99e1df;
+  }
+
+  /* 枠線をつくる */
+  .list{
+    border: solid 2px #99e1df;
+    padding:0;
+    border-radius:10px 10px 0 0;
+  }
+  /* .list ul li:before {
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f14a";
+    left : 0.5em;
+    color: #ee8992;
+  } */
+  /* .list li:before {
+    display: inline-block;
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    content: counter(number);
+    counter-increment: number;
+    left: 0.5em;
+    width: 22px;
+    height: 22px;
+    border-radius: 20%;
+    background: #645355;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 22px;
+  } */
+
+  .list ul li:last-of-type{
+    border-bottom: none;
+  }
+
+  /* リスト全体のフォント */
+  .service_boxes{
+    font-weight:bold;
+    color:#595959
+  }
+
+  /* リストマークひし形とリスト文字 */
+  .listsample li{
+    list-style-type:none !important;
+    list-style-image:none !important;
+    margin: 5px 0px 5px 0px !important;
+  }
+
+  .hisigata li{
+    position:relative;
+    padding-left:30px;
+  
+  }
+
+  .hisigata li:hover{
+    color:#6fc7c5;
+  }  
+
+
+/* 中身タイトル */
+.title{
+  border-bottom: solid 3px #99e1df;
+  font-weight:bold;
+  color:#595959
+}
+
+
+
+/* ページごとの仕様 */
+
+.img_home{
+  width:640px;
+  height:280px;
+  object-fit: cover;
+}
+
+
+/* 新着情報中身 */
+.dt{
+  font-weight:600;
+  color:#595959
+}
+dd{
+  border-bottom: dotted 1px #c4c4c4;
+}
+
+/*footer*/
+.footer{
+  background-color: #6cc6c4;
+  border: solid 2px ;
+  padding:0;
+  border-radius:10px;
+  background-color: #6cc6c4;
+  height:25px;
+  padding: 4px;
+  margin:0;
+  text-align: left;
+  color: #FFF;
+  font-size:5px;
+  letter-spacing: 0.05em;
+  /* display:flex;?? */
+  
+}
